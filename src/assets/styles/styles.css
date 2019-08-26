@@ -1,0 +1,137 @@
+body {
+  background-color: #efeff1;
+}
+.header-atas {
+  background-color: #513e3a;
+}
+.header-atas .navbar-toggler {
+  margin-left: auto;
+}
+.header-atas .navbar {
+  background-color: #513e3a !important;
+}
+.header-atas .navbar a {
+  color: white !important;
+}
+.header-bawah {
+  height: 100px;
+  z-index: 999;
+  background-color: #ffd350;
+  margin-bottom: 40px;
+  -webkit-box-shadow: 0px 3px 5px -1px #8f848f;
+  -moz-box-shadow: 0px 3px 5px -1px #8f848f;
+  box-shadow: 0px 3px 5px -1px #8f848f;
+}
+.header-bawah #tokopetia {
+  text-decoration: none;
+  color: #513e3a;
+}
+.header-bawah #tokopetia:hover {
+  text-decoration: none !important;
+  color: #513e3a;
+  text-decoration-style: none;
+}
+.header-bawah .btn-login {
+  background-color: #513e3a;
+  color: white;
+}
+.header-bawah .btn-signup {
+  border-color: #513e3a;
+}
+.header-bawah img {
+  padding-right: 20px;
+  border-right: #513e3a solid 2px;
+}
+.header-bawah .cart-cnt {
+  border: #513e3a solid 2px;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+.category-nav {
+  background-color: none !important;
+  z-index: 20;
+}
+.category-nav .navbar {
+  background-color: none;
+}
+.banner-home {
+  margin-top: -40px;
+}
+.banner-home h3 {
+  color: black;
+  background-color: white;
+  background-blend-mode: overlay;
+  opacity: 0.6;
+}
+.banner-home p {
+  color: black;
+  background-color: white;
+  background-blend-mode: overlay;
+}
+.banner-home button {
+  position: relative;
+  margin-top: -300px;
+  margin-left: 200px;
+  height: 100px;
+  width: 200px;
+  font-size: 20pt;
+  border: white solid 5pt;
+  color: white;
+}
+.banner-home button:hover {
+  color: #513e3a;
+  border: #513e3a solid 5pt;
+}
+.product-card {
+  height: 250px;
+  -webkit-box-shadow: 0px 0px 3px 1px #595959;
+  -moz-box-shadow: 0px 0px 3px 1px #595959;
+  box-shadow: 0px 0px 3px 1px #595959;
+}
+.product-card this.props.cart_cnt .img-card {
+  height: 181px;
+  background-color: gainsboro;
+}
+.background-white {
+  background-color: whitesmoke;
+}
+.input-barang {
+  background-color: whitesmoke;
+}
+.sidebarprofile {
+  background-color: whitesmoke;
+}
+.category {
+  background-color: whitesmoke;
+}
+.profile-bar {
+  background-color: whitesmoke;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+.shop-bar {
+  background-color: whitesmoke;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+@media (max-width: 992px) {
+  .header-bawah {
+    height: 200px;
+  }
+}
+@media (max-width: 767px) {
+  .banner-home button {
+    visibility: hidden;
+  }
+}
+@media (max-width: 573px) {
+  #tokopetia {
+    text-align: center;
+  }
+}
